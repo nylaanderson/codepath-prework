@@ -74,13 +74,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="W1t-CV-TM5">
-                        <barButtonItem key="rightBarButtonItem" title="Settings" id="Bi7-sa-Pd7">
-                            <connections>
-                                <segue destination="5Td-U8-TLq" kind="show" id="wRT-KV-2vu"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="W1t-CV-TM5"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="billAmountTextField" destination="t2T-BV-RSO" id="9Qq-fb-ID8"/>
@@ -93,25 +87,10 @@
             </objects>
             <point key="canvasLocation" x="779.71014492753625" y="81.696428571428569"/>
         </scene>
-        <!--Settings View Controller-->
-        <scene sceneID="Idb-fh-lkk">
-            <objects>
-                <viewController id="5Td-U8-TLq" customClass="SettingsViewController" customModule="Prework" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xBH-PU-0Na">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="rRy-Gm-6Ef"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="V0N-IR-aA3"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ktN-e4-gxa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1596" y="82"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="E3P-z9-VVL">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lho-Ro-qQY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="T5M-uH-25N" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wnS-Ut-HgZ">
@@ -123,7 +102,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="JqQ-gx-U8J"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lho-Ro-qQY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="81.696428571428569"/>
         </scene>
